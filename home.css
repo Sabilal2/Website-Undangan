@@ -1,0 +1,394 @@
+body {
+    margin: 0;
+    padding: 0;
+    font-family: Arial, sans-serif;
+    background-image: url('background.jpg'); /* Ganti dengan gambar latar belakang yang sesuai */
+    background-size: cover;
+    background-position: center;
+    background-attachment: fixed;
+}
+
+.container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px;
+}
+
+.navbar {
+    background-color: rgba(0, 0, 0, 0.5); /* Warna latar belakang dengan efek transparan */
+    position: fixed;
+    width: 100%;
+    top: 0;
+    left: 0;
+    z-index: 1000;
+    transition: background-color 0.3s ease; /* Efek transisi ketika navbar di-scroll */
+}
+
+.navbar h1 {
+    color: white;
+    margin: 0;
+    font-size: 30px;
+    font-family: 'Courgette', cursive;
+}
+
+.nav-links {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+}
+
+.nav-links li {
+    display: inline;
+    margin-right: 20px;
+}
+
+.nav-links li a {
+    text-decoration: none;
+    color: white;
+    font-weight: bold;
+    transition: color 0.3s ease; /* Efek transisi warna teks saat di-hover */
+}
+
+.nav-links li a:hover {
+    color: #f39c12; /* Warna teks saat di-hover */
+}
+
+.content {
+    padding: 100px 0;
+    text-align: center;
+    color: white;
+    font-size: 24px;
+}
+
+
+
+
+/*home*/
+
+.home-section {
+    background-image: url('img/pexels-masood-aslami-18443125\ \(1\).jpg'); /* Ganti 'img/home.jpeg' dengan path gambar yang sesuai */
+    background-size: cover;
+    background-position: center;
+    background-attachment: fixed;
+    color: white;
+    text-align: center;
+    padding: 100px 0;
+    height: 100vh; /* Menentukan tinggi section menjadi 100% tinggi viewport (full height) */
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.home-section h2 {
+    font-size: 40px;
+    margin-bottom: 20px;
+    font-family: 'Courier New', Courier, monospace;
+}
+
+.home-section h1 {
+    font-size: 60px;
+    margin-top: 20px;
+    font-family: 'Sacramento', cursive;
+  
+}
+
+.home-section h3 {
+    font-size: 30px;
+    margin-top: 20px;
+    font-family: 'Courier New', Courier, monospace;
+}
+/*jam*/
+body {
+    font-family: Arial, sans-serif;
+    background-color: rgba(240, 240, 240, 0.8); /* Latar belakang dengan efek transparan */
+    text-align: center;
+}
+
+.clock {
+    background-color: rgba(253, 253, 253, 0.8); /* Latar belakang dengan efek transparan */
+    color: #000000;
+    width: 500px; /* Lebar kotak jam diperbesar */
+    margin: 80px auto;
+    padding: 20px;
+    border-radius: 20px;
+    border: 2px solid #000000; /* Menambahkan border dengan warna hitam */
+    display: flex;
+    justify-content: space-between;
+}
+
+.time-box {
+    flex-basis: 33.33%; /* Lebar setiap kotak waktu diatur agar tiga kotak terisi dengan rata */
+    padding: 10px;
+}
+
+.time-label {
+    font-size: 60px;
+    font-family: 'Handjet', sans-serif;
+}
+
+.time {
+    font-size: 60px;
+    margin-bottom: 10px;
+    font-family: 'Handjet', sans-serif;
+
+}
+
+#day {
+    font-size: 60px;
+    font-family: 'Handjet', sans-serif;
+}
+/*home*/
+
+/*acara*/
+#about {
+    background-image: url('img/pexels-eberhard-grossgasteiger-1421903.jpg'); /* Ganti 'img/home.jpeg' dengan path gambar yang sesuai */
+    background-size: cover;
+    background-position: center;
+    background-attachment: fixed;
+    color: white;
+    text-align: center;
+    padding: 100px 0;
+    height: 100vh; /* Menentukan tinggi section menjadi 100% tinggi viewport (full height) */
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+
+#about h1 {
+    font-size: 36px; /* Ukuran font */
+    color: #ffffff; /* Warna teks */
+    text-align: center;
+    margin-bottom: 10px; /* Jarak bawah */
+    /* Tambahkan gaya tambahan sesuai kebutuhan Anda */
+    font-family: 'Pacifico', cursive;
+}
+
+#about h2{
+    font-size: 20px;
+    color: white;
+    text-align: left;
+    margin-bottom: 10px;
+    font-family: 'Pacifico', cursive;
+    
+}
+
+#about h3{
+    font-size: 20px;
+    color: white;
+    text-align: center;
+    margin-bottom: 10px;
+    font-family: 'Pacifico', cursive;
+    
+}.section-content {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    max-width: 800px;
+    margin: 0 auto;
+}
+
+.section-content {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    max-width: 800px;
+    margin: 0 auto;
+}
+
+.text-container {
+    text-align: center;
+    padding: 20px;
+}
+
+.image-container {
+    display: flex;
+    justify-content: center; /* Menggunakan justify-content: center agar foto-foto saling mendekat */
+    max-width: 100%;
+    padding: 20px;
+}
+
+.image-container img {
+    max-width: 15%; /* Atur lebar maksimum foto-foto */
+    height: auto;
+    border-radius: 50%; /* Membuat foto menjadi lingkaran */
+    margin: 0 10px; /* Mengatur jarak antara foto-foto */
+}
+
+#about h1 {
+    font-size: 36px;
+    color: #ffffff;
+    font-family: 'Pacifico', cursive;
+    text-align: center;
+    margin-bottom: 10px;
+}
+
+#about h2 {
+    font-size: 20px;
+    color: white;
+    text-align: center;
+    margin-bottom: 10px;
+    font-family: 'Courier New', Courier, monospace;
+}
+
+#about h3 {
+    font-size: 20px;
+    color: white;
+    text-align: center;
+    margin-bottom: 10px;
+    font-family: 'Courier New', Courier, monospace;
+}
+
+.section-content {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    max-width: 800px;
+    margin: 0 auto;
+}
+
+.text-container {
+    text-align: center;
+    padding: 20px;
+}
+
+.image-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    max-width: 100%;
+    padding: 20px;
+    text-align: center;
+}
+
+.image-container img {
+    max-width: 15%;
+    height: auto;
+    border-radius: 50%;
+    margin: 0 10px;
+}
+
+.image-caption {
+    text-align: center;
+    padding-left: 20px;
+    padding-right: 20px;
+}
+
+h2 {
+    color: #ffffff;
+    font-size: 24px;
+    margin-bottom: 10px;
+    text-align: left;
+}
+
+h4 {
+    color: #666;
+    font-size: 16px;
+    margin-top: 0;
+    text-align: left;
+}
+
+/*cerita*/
+/* Mengatur tampilan section cerita cinta */
+
+#ceritacinta {
+    background-image: url('img/pexels-madison-inouye-1831234.jpg'); /* Ganti 'img/home.jpeg' dengan path gambar yang sesuai */
+    background-size: cover;
+    background-position: center;
+    background-attachment: fixed;
+    color: white;
+    text-align: center;
+    padding: 100px 0;
+    height: 100vh; /* Menentukan tinggi section menjadi 100% tinggi viewport (full height) */
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+/* CSS untuk elemen "ceritacinta" */
+#ceritacinta {
+    position: relative;
+}
+
+/* CSS untuk judul "Cerita Cinta" */
+.cerita-cinta h2 {
+    font-size: 24px;
+    color: #ff3366;
+    margin: 20px 0 0 20px; /* Memberikan margin di atas dan kiri */
+    position: absolute;
+    top: 0;
+    left: 0;
+}
+
+.cerita-cinta p {
+    text-align: center;
+    color: #333;
+    margin: 0 20px 20px 20px; /* Memberikan margin di atas, kanan, bawah, dan kiri */
+    font-family: 'Young Serif', serif;
+    font-style: italic;
+}
+
+.cerita-cinta ul {
+    list-style: none;
+    padding: 0;
+}
+
+.cerita-cinta li {
+    margin: 10px 0;
+    text-align: left;
+}
+
+.cerita-cinta figure {
+    text-align: left;
+}
+
+
+.cerita-cinta h2 {
+    font-size: 30px;
+    color: #ff3366;
+    margin: 20px 20px 0 20px; /* Memberikan margin di atas, kanan, bawah, dan kiri */
+    font-family: 'Dancing Script', cursive;
+}
+
+.cerita-cinta p {
+    font-size: 30px;
+    color: #333;
+    margin: 0 20px 20px 20px; /* Memberikan margin di atas, kanan, bawah, dan kiri */
+}
+
+.cerita-cinta ul {
+    list-style: none;
+    padding: 0;
+}
+
+.cerita-cinta li {
+    margin: 10px 0;
+    text-align: left;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+.cerita-cinta figure {
+    text-align: center;
+}
+
+.cerita-cinta img {
+    max-width: 100%;
+    border: 2px solid #ff3366;
+    border-radius: 10px;
+}
+
+.cerita-cinta figcaption {
+    font-size: 16px;
+    color: #000000;
+    margin-top: 5px;
+}
+
+.cerita-cinta img {
+    max-width: 190px; /* Ubah ukuran gambar sesuai kebutuhan */
+    border: 2px solid #ff3366;
+}
+

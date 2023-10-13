@@ -1,0 +1,73 @@
+/* Reset margin dan padding bawaan browser */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* Style latar belakang halaman */
+body {
+    background-image: url(img/1.webp);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+}
+
+/* Style kotak login */
+.login-box {
+    background-color: rgba(255, 255, 255, 0.8); /* Warna latar belakang dengan opasitas 0.8 */
+    padding: 100px;
+    border-radius: 6px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+    text-align: center;
+}
+
+/* Style judul login */
+.login-box h2 {
+    margin-bottom: 20px;
+    font-family: 'Young Serif', serif;
+}
+
+/* Style label dan input */
+label {
+    display: block;
+    margin-bottom: 10px;
+    font-weight: bold; /* Menambahkan ketebalan pada teks label */
+}
+
+input[type="text"],
+input[type="password"] {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 10px;
+    border: 2px solid #ccc;
+    border-radius: 5px;
+}
+
+/* Style tombol login */
+button {
+    background-color: #007bff;
+    color: #fff;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+button:hover {
+    background-color: #0056b3;
+}
+
+.login-button {
+    display: inline-block;
+    padding: 10px 20px;
+    background-color: #007bff;
+    color: #fff;
+    text-decoration: none; /* Menghilangkan garis bawah pada tautan */
+    border-radius: 5px;
+}
+
+.login-button:hover {
+    background-color: #0056b3;
+}
