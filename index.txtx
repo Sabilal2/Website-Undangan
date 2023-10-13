@@ -1,0 +1,47 @@
+
+
+ <section id="about" class="content">
+        <p class="countdown-info-text">Tempat: Gedung Pernikahan Bahagia</p>
+        <iframe
+            src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3966.235299646727!2dYOUR_LONGITUDE!3dYOUR_LATITUDE!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0xYOUR_LATITUDE%2C+YOUR_LONGITUDE!2sGedung+Pernikahan+Bahagia!5e0!3m2!1sen!2sUS!4vYOUR_EMBED_MAP_VERSION"
+            width="600"
+            height="450"
+            style="border:0;"
+            allowfullscreen=""
+            loading="lazy"
+        ></iframe>    
+        <div class="countdown-info-container">
+            <div class="countdown-info-item">
+                <p class="countdown-info-text">Tanggal: 10 Oktober 2023</p>
+            </div>
+            <div class="countdown-info-item">
+                <p class="countdown-info-text">Hari: Sabtu</p>
+            </div>
+            <div class="countdown-info-item">
+                <p class="countdown-info-text">Waktu: 14.00 WIB</p>
+            </div>
+            <div class="countdown-info-item">
+                <p class="countdown-info-text">Tempat: Gedung Pernikahan Bahagia</p>
+            </div>
+        </div>
+        
+
+        <div class="countdown-container">
+            <div class="countdown-item">
+                <span id="days">100</span>
+                <span>Hari</span>
+            </div>
+            <div class="countdown-item">
+                <span id="hours">00</span>
+                <span>Jam</span>
+            </div>
+            <div class="countdown-item">
+                <span id="minutes">00</span>
+                <span>Menit</span>
+            </div>
+            <div class="countdown-item">
+                <span id="seconds">00</span>
+                <span>Detik</span>
+        </div>
+
+    </section>
